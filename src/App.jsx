@@ -27,6 +27,7 @@ const App = () => {
           {error && <p>{error}</p>}
           <label htmlFor='username'>Username</label>
           <input
+            required
             type='text'
             placeholder='Username'
             id='username'
@@ -38,6 +39,7 @@ const App = () => {
           <br />
           <label htmlFor='password'>Password</label>
           <input
+            required
             type='password'
             placeholder='Password'
             id='password'
