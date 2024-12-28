@@ -52,7 +52,7 @@ const App = () => {
           <button type='submit'>Submit</button>
         </form>
       ) : (
-        <h2>Welcome user!</h2>
+        <h2>Welcome {username}!</h2>
       )}
     </div>
   );
