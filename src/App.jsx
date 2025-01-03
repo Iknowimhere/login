@@ -13,7 +13,7 @@ const App = () => {
       setIsLoggedIn(true);
       setError('');
     } else {
-      setError('Invalid username and password');
+      setError('Invalid username or password');
       setUsername('');
       setPassword('');
     }
@@ -52,7 +52,7 @@ const App = () => {
           <button type='submit'>Submit</button>
         </form>
       ) : (
-        <h2>Welcome {username}!</h2>
+        <h2>Welcome, {username}!</h2>
       )}
     </div>
   );
